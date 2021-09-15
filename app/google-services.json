@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "969380770511",
+    "project_id": "truck-in-driver",
+    "storage_bucket": "truck-in-driver.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:969380770511:android:45068c4e05bc7500473dba",
+        "android_client_info": {
+          "package_name": "com.sibtain.truckindriver"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "969380770511-9fp0f76co9rs5vb70r5kdcu17o42hk5q.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCP7BGyRC8k10NzKqKwzCwU1qw2UDLg--A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "969380770511-9fp0f76co9rs5vb70r5kdcu17o42hk5q.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
