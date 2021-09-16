@@ -37,12 +37,14 @@
             android:layout_below="@+id/txtLogin"
             android:layout_marginTop="20dp"
             android:layout_marginHorizontal="20dp"
+            android:layout_marginBottom="20dp"
             >
             <androidx.cardview.widget.CardView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:background="@color/white"
-                app:cardCornerRadius="20dp">
+                app:cardCornerRadius="20dp"
+               >
                 <RelativeLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"

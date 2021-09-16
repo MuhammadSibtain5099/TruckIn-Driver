@@ -3,6 +3,7 @@ package com.sibtain.truckindriver;
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -18,7 +19,7 @@ import com.google.firebase.auth.GoogleAuthProvider;
 
 public class Login extends AppCompatActivity {
     TextInputLayout edEmail,edPassword;
-    Button btnLogin;
+    Button btnLogin,btnRegister;
     private FirebaseAuth mAuth;
 
     @Override
@@ -29,6 +30,7 @@ public class Login extends AppCompatActivity {
         edEmail = findViewById(R.id.edEmail);
         edPassword = findViewById(R.id.edPassword);
         btnLogin = findViewById(R.id.btnLogin);
+        btnRegister = findViewById(R.id.btnRegister);
         btnLogin.setOnClickListener(v -> {
             String Email = edEmail.getEditText().getText().toString();
             String Password = edPassword.getEditText().getText().toString();
@@ -52,6 +54,10 @@ public class Login extends AppCompatActivity {
                     }
                 });
             }
+        });
+        btnRegister.setOnClickListener(v -> {
+            Intent intent = new Intent(this,Register.class);
+            startActivity(intent);
         });
 
     }

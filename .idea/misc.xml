@@ -4,11 +4,14 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/ProfessionalProjects/TruckIn/TruckInDriver/app/src/main/res/drawable/background_theme.xml" value="0.19282051282051282" />
+        <entry key="..\:/ProfessionalProjects/TruckIn/TruckInDriver/app/src/main/res/drawable/non_selected_item_dot.xml" value="0.1" />
         <entry key="..\:/ProfessionalProjects/TruckIn/TruckInDriver/app/src/main/res/drawable/style_layout_header.xml" value="0.19282051282051282" />
         <entry key="..\:/ProfessionalProjects/TruckIn/TruckInDriver/app/src/main/res/layout/activity_home.xml" value="0.1796875" />
         <entry key="..\:/ProfessionalProjects/TruckIn/TruckInDriver/app/src/main/res/layout/activity_login.xml" value="0.1796875" />
         <entry key="..\:/ProfessionalProjects/TruckIn/TruckInDriver/app/src/main/res/layout/activity_main.xml" value="0.1527777777777778" />
+        <entry key="..\:/ProfessionalProjects/TruckIn/TruckInDriver/app/src/main/res/layout/activity_on_boarding.xml" value="0.1" />
         <entry key="..\:/ProfessionalProjects/TruckIn/TruckInDriver/app/src/main/res/layout/activity_register.xml" value="0.1796875" />
+        <entry key="..\:/ProfessionalProjects/TruckIn/TruckInDriver/app/src/main/res/layout/onboard_item.xml" value="0.1" />
       </map>
     </option>
   </component>

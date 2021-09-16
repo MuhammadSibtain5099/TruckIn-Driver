@@ -17,6 +17,7 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.airbnb.lottie.LottieAnimationView;
+import com.sibtain.truckindriver.boarding.OnBoardingActivity;
 
 public class MainActivity extends AppCompatActivity {
     Animation anim;
@@ -42,7 +43,7 @@ public class MainActivity extends AppCompatActivity {
             internetConAnim.setVisibility(View.GONE);
             splashAnim.setVisibility(View.VISIBLE);
             new Handler().postDelayed(() -> {
-                startActivity(new Intent(this, Login.class));
+                startActivity(new Intent(this, OnBoardingActivity.class));
                 finish();
             }, 3500);
 
