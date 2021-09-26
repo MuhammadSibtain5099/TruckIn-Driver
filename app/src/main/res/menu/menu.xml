@@ -1,16 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
-<item android:id="@+id/icon_Dashboard"
-    android:title="Dashboard"
-    />
-    <item android:id="@+id/Recent_Call"
-        android:title="Recent Call"
-        />
-    <item android:id="@+id/icon_Chat"
-        android:title="Chat"
-        />
-    <item android:id="@+id/icon_Call"
-        android:title="Call"
-        />
+    <item
+        android:id="@+id/icon_Home"
+        android:title="Home" />
+
+    <item
+        android:id="@+id/icon_Profile"
+        android:title="Profile" />
+    <item
+        android:id="@+id/Recent_Rides"
+        android:title="Recent Rides" />
+    <item
+        android:id="@+id/About_Us"
+        android:title="About US" />
+    <item
+        android:id="@+id/Contact_Us"
+        android:title="Contact Us" />
 
 </menu>

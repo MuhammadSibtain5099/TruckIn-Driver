@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Truck In Driver</string>
+    <string name="app_name">T-Captain</string>
     <string name="welcome_to_truck_in_driver">Truck In Driver</string>
 
 
@@ -14,5 +14,9 @@
     <string name="ob_desc3">We have a very small charge for non-Wonep calls to mobiles or landlines</string>
     <string name="navigation_drawer_open">open</string>
     <string name="navigation_drawer_close">close</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="twitterUsername">\@Guest</string>
+    <string name="title_activity_maps">MapsActivity</string>
 
 </resources>
