@@ -26,14 +26,9 @@ public class OnBoardingActivity extends AppCompatActivity {
     private LinearLayout pager_indicator;
     private int dotsCount;
     private ImageView[] dots;
-
-
     private ViewPager onboard_pager;
-
     private OnBoard_Adapter mAdapter;
-
     private Button btn_get_started;
-
     int previous_pos = 0;
 
 
@@ -88,14 +83,11 @@ public class OnBoardingActivity extends AppCompatActivity {
             }
         });
 
-        btn_get_started.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
+        btn_get_started.setOnClickListener(v -> {
 
-              //  Toast.makeText(OnBoardingActivity.this, "Redirect to wherever you want", Toast.LENGTH_LONG).show();
-                startActivity(new Intent(OnBoardingActivity.this, Login.class));
-                finish();
-            }
+          //  Toast.makeText(OnBoardingActivity.this, "Redirect to wherever you want", Toast.LENGTH_LONG).show();
+            startActivity(new Intent(OnBoardingActivity.this, Login.class));
+            finish();
         });
 
         setUiPageViewController();

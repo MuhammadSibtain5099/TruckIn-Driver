@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<item android:id="@+id/icon_Dashboard"
+    android:title="Dashboard"
+    />
+    <item android:id="@+id/Recent_Call"
+        android:title="Recent Call"
+        />
+    <item android:id="@+id/icon_Chat"
+        android:title="Chat"
+        />
+    <item android:id="@+id/icon_Call"
+        android:title="Call"
+        />
+
+</menu>
