@@ -1,6 +1,7 @@
 package com.sibtain.truckindriver;
 
 import android.app.ProgressDialog;
+import android.content.Intent;
 import android.os.Bundle;
 import android.widget.Button;
 import android.widget.Toast;
@@ -80,6 +81,7 @@ public class Register extends AppCompatActivity {
                             if (task1.isSuccessful()) {
                                 Toast.makeText(Register.this, "Your Account Created Successfully , Our Experts WIll Contact With you Soon", Toast.LENGTH_SHORT).show();
                                 progressDialog.dismiss();
+                                mAuth.signOut();
                             } else {
                                 Toast.makeText(Register.this, task1.getException().getMessage(), Toast.LENGTH_SHORT).show();
                                 progressDialog.dismiss();
@@ -96,5 +98,12 @@ public class Register extends AppCompatActivity {
         });
 
 
+    }
+
+    @Override
+    public void onBackPressed() {
+        super.onBackPressed();
+        startActivity(new Intent(getApplicationContext(),Login.class));
+        finish();
     }
 }

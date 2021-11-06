@@ -1,9 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
-<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/nav_switch"
+        app:actionLayout="@layout/switch_menu"
+        android:title="Show Online"
+        />
     <item
-        android:id="@+id/icon_Home"
+    android:id="@+id/icon_Home"
         android:title="Home" />
-
     <item
         android:id="@+id/icon_Profile"
         android:title="Profile" />
@@ -16,5 +20,8 @@
     <item
         android:id="@+id/Contact_Us"
         android:title="Contact Us" />
+    <item
+        android:id="@+id/logoutUser"
+        android:title="Logout" />
 
 </menu>

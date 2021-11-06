@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_marginHorizontal="10dp"
+    android:layout_marginTop="2dp"
+    >
+<androidx.cardview.widget.CardView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:backgroundTint="@color/purple_500"
+    app:cardCornerRadius="10dp"
+    >
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+    <TextView
+        android:id="@+id/txtPickup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dp"
+        android:paddingVertical="10dp"
+        android:maxLines="1"
+        android:textColor="@color/white"
+        android:drawablePadding="10dp"
+        android:textSize="14sp"
+        android:drawableLeft="@drawable/ic_baseline_flight_takeoff_24"
+        android:text="PickUp"/>
+        <TextView
+            android:id="@+id/txtDropOff"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:maxLines="1"
+            android:paddingVertical="10dp"
+            android:textColor="@color/white"
+            android:drawablePadding="10dp"
+            android:textSize="14sp"
+            android:drawableLeft="@drawable/ic_baseline_flight_land_24"
+            android:text="DropOff"/>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>
+</RelativeLayout>

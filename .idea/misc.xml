@@ -10,20 +10,33 @@
         <entry key="..\:/ProfessionalProjects/TruckIn/TruckInDriver/app/src/main/res/drawable/ic_settings.xml" value="0.1" />
         <entry key="..\:/ProfessionalProjects/TruckIn/TruckInDriver/app/src/main/res/drawable/ic_user.xml" value="0.1" />
         <entry key="..\:/ProfessionalProjects/TruckIn/TruckInDriver/app/src/main/res/drawable/non_selected_item_dot.xml" value="0.1" />
+        <entry key="..\:/ProfessionalProjects/TruckIn/TruckInDriver/app/src/main/res/drawable/rounded_bg.xml" value="0.20052083333333334" />
+        <entry key="..\:/ProfessionalProjects/TruckIn/TruckInDriver/app/src/main/res/drawable/splash_screen_background.xml" value="0.20052083333333334" />
         <entry key="..\:/ProfessionalProjects/TruckIn/TruckInDriver/app/src/main/res/drawable/style_layout_header.xml" value="0.19282051282051282" />
         <entry key="..\:/ProfessionalProjects/TruckIn/TruckInDriver/app/src/main/res/layout/activity_home.xml" value="0.16666666666666666" />
         <entry key="..\:/ProfessionalProjects/TruckIn/TruckInDriver/app/src/main/res/layout/activity_login.xml" value="0.16666666666666666" />
         <entry key="..\:/ProfessionalProjects/TruckIn/TruckInDriver/app/src/main/res/layout/activity_main.xml" value="0.1527777777777778" />
         <entry key="..\:/ProfessionalProjects/TruckIn/TruckInDriver/app/src/main/res/layout/activity_maps.xml" value="0.10190217391304347" />
+        <entry key="..\:/ProfessionalProjects/TruckIn/TruckInDriver/app/src/main/res/layout/activity_maps2.xml" value="0.184375" />
         <entry key="..\:/ProfessionalProjects/TruckIn/TruckInDriver/app/src/main/res/layout/activity_on_boarding.xml" value="0.1" />
+        <entry key="..\:/ProfessionalProjects/TruckIn/TruckInDriver/app/src/main/res/layout/activity_rating.xml" value="0.184375" />
         <entry key="..\:/ProfessionalProjects/TruckIn/TruckInDriver/app/src/main/res/layout/activity_register.xml" value="0.1796875" />
+        <entry key="..\:/ProfessionalProjects/TruckIn/TruckInDriver/app/src/main/res/layout/activity_ride_finish.xml" value="0.184375" />
+        <entry key="..\:/ProfessionalProjects/TruckIn/TruckInDriver/app/src/main/res/layout/activity_ride_tracking.xml" value="0.16666666666666666" />
+        <entry key="..\:/ProfessionalProjects/TruckIn/TruckInDriver/app/src/main/res/layout/activity_show_request_list.xml" value="0.3333333333333333" />
         <entry key="..\:/ProfessionalProjects/TruckIn/TruckInDriver/app/src/main/res/layout/content_main.xml" value="0.13333333333333333" />
+        <entry key="..\:/ProfessionalProjects/TruckIn/TruckInDriver/app/src/main/res/layout/custom_dialog_loading.xml" value="0.10461956521739131" />
+        <entry key="..\:/ProfessionalProjects/TruckIn/TruckInDriver/app/src/main/res/layout/custom_dialog_show_requests.xml" value="0.184375" />
         <entry key="..\:/ProfessionalProjects/TruckIn/TruckInDriver/app/src/main/res/layout/fragment_about.xml" value="0.16666666666666666" />
         <entry key="..\:/ProfessionalProjects/TruckIn/TruckInDriver/app/src/main/res/layout/fragment_contact.xml" value="0.1" />
+        <entry key="..\:/ProfessionalProjects/TruckIn/TruckInDriver/app/src/main/res/layout/fragment_first.xml" value="0.16666666666666666" />
         <entry key="..\:/ProfessionalProjects/TruckIn/TruckInDriver/app/src/main/res/layout/fragment_home.xml" value="0.1" />
-        <entry key="..\:/ProfessionalProjects/TruckIn/TruckInDriver/app/src/main/res/layout/fragment_profile.xml" value="0.3333333333333333" />
+        <entry key="..\:/ProfessionalProjects/TruckIn/TruckInDriver/app/src/main/res/layout/fragment_map_tracking.xml" value="0.184375" />
+        <entry key="..\:/ProfessionalProjects/TruckIn/TruckInDriver/app/src/main/res/layout/fragment_profile.xml" value="0.22423146473779385" />
         <entry key="..\:/ProfessionalProjects/TruckIn/TruckInDriver/app/src/main/res/layout/navigation_header.xml" value="0.16666666666666666" />
         <entry key="..\:/ProfessionalProjects/TruckIn/TruckInDriver/app/src/main/res/layout/onboard_item.xml" value="0.1" />
+        <entry key="..\:/ProfessionalProjects/TruckIn/TruckInDriver/app/src/main/res/layout/show_rider_requests_items.xml" value="0.3333333333333333" />
+        <entry key="..\:/ProfessionalProjects/TruckIn/TruckInDriver/app/src/main/res/layout/switch_menu.xml" value="0.11639492753623189" />
         <entry key="..\:/ProfessionalProjects/TruckIn/TruckInDriver/app/src/main/res/menu/menu.xml" value="0.16666666666666666" />
         <entry key="..\:/ProfessionalProjects/TruckIn/TruckInDriver/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1" />
       </map>

@@ -17,6 +17,7 @@ import androidx.viewpager.widget.ViewPager;
 import com.sibtain.truckindriver.Login;
 import com.sibtain.truckindriver.R;
 import com.sibtain.truckindriver.boarding.model.OnBoardItem;
+import com.sibtain.truckindriver.sharedpreferences.SharedPreferencesCustomClass;
 
 import java.util.ArrayList;
 
@@ -30,8 +31,7 @@ public class OnBoardingActivity extends AppCompatActivity {
     private OnBoard_Adapter mAdapter;
     private Button btn_get_started;
     int previous_pos = 0;
-
-
+    SharedPreferencesCustomClass sps;
     ArrayList<OnBoardItem> onBoardItems = new ArrayList<>();
 
 
@@ -43,7 +43,8 @@ public class OnBoardingActivity extends AppCompatActivity {
         btn_get_started = (Button) findViewById(R.id.btn_get_started);
         onboard_pager = (ViewPager) findViewById(R.id.pager_introduction);
         pager_indicator = (LinearLayout) findViewById(R.id.viewPagerCountDots);
-
+        sps =new SharedPreferencesCustomClass(OnBoardingActivity.this);
+        sps.save();
         loadData();
 
         mAdapter = new OnBoard_Adapter(this, onBoardItems);

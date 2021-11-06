@@ -7,7 +7,9 @@
     <color name="teal_700">#0D79D6</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
-
+    <color name="colorPrimary">#0C97C1</color>
+    <color name="colorPrimaryDark">#0C97C1</color>
+    <color name="colorAccent">#FFBB86FC</color>
     <color name="selected_dot">#2D9CDB</color>
     <color name="idle_dot">#662D9CDB</color>
     <color name="ob_header">#4A4A4A</color>
@@ -42,5 +44,6 @@
     <color name="color_dark_custom_fragment_2">#303F9F</color>
     <color name="color_dark_canteen">#ebeef0</color>
 
-
+    <color name="rating_inactive">#929292</color>
+    <color name="rating_active">#f8b83b</color>
 </resources>

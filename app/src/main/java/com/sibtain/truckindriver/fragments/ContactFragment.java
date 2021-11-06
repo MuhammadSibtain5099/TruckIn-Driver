@@ -36,4 +36,6 @@ public class ContactFragment extends Fragment {
         fancyAboutPage.setPadding(0,0,0,20);
     return v;
     }
+
+
 }

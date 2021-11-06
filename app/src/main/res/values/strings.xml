@@ -1,7 +1,7 @@
 <resources>
     <string name="app_name">T-Captain</string>
     <string name="welcome_to_truck_in_driver">Truck In Driver</string>
-
+    <string name="places_api_key">AIzaSyBGhn-udvXYCOeKuLkJTWWYy0L-2B7LwkE</string>
 
     <string name="ob_header1">SIMPLE ABROAD CALLS</string>
     <string name="ob_header2">FREE WONEP TO WONEP</string>
@@ -18,5 +18,7 @@
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="twitterUsername">\@Guest</string>
     <string name="title_activity_maps">MapsActivity</string>
+    <string name="title_activity_maps2">MapsActivity2</string>
+    <string name="waiting_user">Waiting Users : </string>
 
 </resources>
